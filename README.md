@@ -1,13 +1,125 @@
-# React + Vite
+# 💰 Personal Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and fully responsive **React + Vite** application that helps users track their income and expenses in real-time. It features a modern UI, interactive data visualization, dark mode, and localStorage persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [https://personal-finance-dashboard-eosin.vercel.app/](https://personal-finance-dashboard-eosin.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# personal-finance-dashboard
+---
+
+## 🛠️ Features
+
+- ✅ Add, delete, and track income or expense transactions  
+- 🕓 Auto timestamp on every transaction  
+- 📊 Summary cards for Income, Expenses, and Balance  
+- 📈 Pie & Bar charts for visual overview  
+- 🌗 Dark/Light mode toggle with full styling support  
+- 💾 Data persisted via localStorage  
+- 📱 Fully responsive UI with Tailwind CSS  
+- 🎨 Modern icon support using Lucide React
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React, Vite  
+- **Styling:** Tailwind CSS  
+- **Charts:** Recharts  
+- **Icons:** Lucide React  
+- **Persistence:** localStorage  
+
+---
+
+## 📁 Project Structure
+
+```
+personal-finance-dashboard/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── SummaryCard.jsx
+│   │   ├── TransactionInput.jsx
+│   │   ├── TransactionList.jsx
+│   │   ├── TransactionItem.jsx
+│   │   ├── TransactionCharts.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── tailwind.config.js
+├── vite.config.js
+├── postcss.config.js
+└── package.json
+```
+
+---
+
+## 🧪 Getting Started Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/Pritz395/personal-finance-dashboard.git
+cd personal-finance-dashboard
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the dev server
+npm run dev
+
+# 4. Open in browser
+http://localhost:5173
+```
+
+---
+
+## 📦 .gitignore (Important)
+
+Make sure this file exists to prevent unnecessary files being tracked:
+
+```
+node_modules
+dist
+.env
+.vscode
+.DS_Store
+```
+
+---
+
+## 🌐 Deployment
+
+Deployed via **Vercel**  
+🔗 [https://personal-finance-dashboard-eosin.vercel.app](https://personal-finance-dashboard-eosin.vercel.app)
+
+Simply connect your GitHub repo to Vercel and it will auto-deploy on push.
+
+---
+
+## 🧠 Future Ideas
+
+- Category filters and monthly views  
+- Login system with backend database  
+- Export to CSV or PDF  
+- Cloud sync with authentication  
+- Real-time collaborative finance planning  
+
+---
+
+## 🙌 Author
+
+Built with 💻 by **Preetham Poojari**
+
+- 🔗 [GitHub](https://github.com/Pritz395)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/preetham-poojari-935702280/)  
+- 🐦 [X (Twitter)](https://x.com/pr33th4m_)
+
+---
+
+## 📃 License
+
+MIT License — use, modify, and build freely.
+
+
